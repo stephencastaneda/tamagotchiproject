@@ -1,9 +1,5 @@
-let full = 100;
+const gamePic = [
+  {imgUrl: 'https://static.planetminecraft.com/files/resource_media/screenshot/1229/embergirlminecraft_2981213_thumb.jpg'}, 
+];
 
-const getFullScore = () => full;
-
-const setFullScore = (newScore) => {
-  full = newScore;
-};
-
-export default { getFullScore, setFullScore };
+export default { gamePic }
