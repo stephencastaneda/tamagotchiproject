@@ -14,7 +14,6 @@ const goodFoodEvent = () => {
   if (full <= 90) {
     full += 10;
     $('#bar').val(full);
-    $('#eat-score').html(full);
   }
 };
 
